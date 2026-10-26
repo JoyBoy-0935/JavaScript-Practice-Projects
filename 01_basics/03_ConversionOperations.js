@@ -43,3 +43,25 @@ let negValue = -value;
 // console.log(+""); // 0
 
 
+
+// ***************** Comparsions *****************
+
+// Whenever we compare any values please make sure that the datatypes are same.
+
+console.log("2" > 1);
+console.log("02" > 1);
+
+console.log(null > 0); // false
+console.log(null == 0); //false
+console.log(null >= 0); // true
+//Reason:  equality check(==) & comparsion operators(> < >= <=) works differently. {Comparsions convert null to a number, treating it as 0}
+
+// undefined: always gives false for any of the comparsion.
+
+
+
+
+
+
+
+
