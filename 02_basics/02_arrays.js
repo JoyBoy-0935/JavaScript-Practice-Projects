@@ -5,7 +5,7 @@ const whiteBeards = ["newgate", "marco", "ace", "tech"]
 // console.log(strawHats) // Array ke andar array
 // console.log(strawHats[4][2])
 
-/* concept of spread method || Limitation: Can only add one array at a time. */
+/* concept of spread method || Limitation: Can only add the elements of one array at a time. */
 const result = strawHats.concat(whiteBeards) // returns a new array with all the elements.
 // console.log(result)
 

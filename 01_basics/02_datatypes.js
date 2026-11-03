@@ -10,7 +10,7 @@
     undefined => when an variable is not assigned a value
     symbol => unique (Excessively used with React.js)
 
-    #Reference (Non-primitive)
+    #Reference (Non-primitive) datatype:
     object
     Array
     Fuction
