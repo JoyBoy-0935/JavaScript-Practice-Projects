@@ -37,7 +37,7 @@ const obj3 = {
     // const resultObject = Object.assign({}, obj1, obj2, obj3); 
     // is a static method that6 copies all the properties from one or more source objects to a target object. It returns the modified target object.
 
-// 3: Most preferred:   
+// 3: Spread Method (Most preferred):   
     const resultObject = {...obj1, ...obj2, ...obj3}
 
 /* PTR: Usually the database returns the array of objects */
