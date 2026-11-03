@@ -51,4 +51,22 @@ const valueArr = Object.values(tinderUser)
 const entryArr = Object.entries(tinderUser)
 // console.log(entryArr)
 
-console.log(tinderUser.hasOwnProperty("age")) // returns true if that key is present.
+// console.log(tinderUser.hasOwnProperty("age")) // returns true if that key is present.
+
+
+/* Destructuring of object */
+
+const course = {
+    name: "JavaScript",
+    courseInstructor: "Hitesh",
+    duration: "1year"
+}
+
+console.log(course.courseInstructor);
+// instead
+const {courseInstructor: instructor} = course
+    // propertyName: givenName
+
+console.log(courseInstructor);
+
+/*PTR: JSON format basically returns objects or array of object only difference is that it doesn't have a name like the js object */
