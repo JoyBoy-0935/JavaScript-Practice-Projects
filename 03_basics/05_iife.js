@@ -15,4 +15,4 @@
     console.log(`${name} was the first pirate.`)
 })("joyboy");
 
-console.log(company)
+console.log(company) // throws error
